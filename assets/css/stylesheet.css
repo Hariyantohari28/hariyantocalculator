@@ -1,0 +1,111 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("../images/moneyhariyanto.jpg");
+  background-size: cover;
+  height: 637px;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: fixed;
+  background: rgb(9, 16, 107);
+  padding: 25px;
+
+  border-radius: 0px 60px 0px 60px;
+  -webkit-box-shadow: 16px 17px 16px 0px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 16px 17px 16px 0px rgba(255, 255, 255, 1);
+  box-shadow: 16px 17px 16px 0px rgba(255, 255, 255, 1);
+  border: 10px solid white;
+}
+
+.main h2 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+.button {
+  width: 70px;
+  height: 70px;
+  font-size: 25px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  background: white;
+  color: rgb(9, 16, 107);
+  border-radius: 0px 15px 0px 15px;
+  font-weight: bold;
+}
+
+.button span:hover {
+  background: darkturquoise;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.button:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+  background-color: rgb(33, 197, 226);
+  color: #fff;
+}
+
+.buttons:hover {
+  opacity: 1;
+}
+
+.buttons:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+  background-color: rgb(255, 242, 58);
+  color: #fff;
+}
+
+.button-two {
+  background: rgb(255, 242, 58);
+  color: rgb(9, 16, 107);
+  border: 5px solid white;
+}
+
+.buttons {
+  background: rgb(33, 197, 226);
+  color: rgb(9, 16, 107);
+  height: 70px;
+  width: 70px;
+  font-size: 25px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 5px solid white;
+  border-radius: 0px 15px 0px 15px;
+}
+
+.textarea {
+  width: 285px;
+  margin: 4px;
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  border: none;
+  color: #831704;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
